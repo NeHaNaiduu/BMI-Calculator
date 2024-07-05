@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(234, 231, 231);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vmin;
+}
+.height,.weight{
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    padding: 10px;
+}
+.guide{
+    border: 2px solid;
+    margin-top: 70px;
+}
+#result{
+    margin: 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+@media (max-width:790px) {
+    .guide{
+        margin-top: 130px;
+    }
+}
+@media (max-width:390px) {
+    .guide{
+        margin-top: 130px;
+    }
+    #result{
+        font-size: 15px;
+    }
+}
